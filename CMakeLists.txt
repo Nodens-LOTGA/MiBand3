@@ -15,3 +15,4 @@ add_executable(MiBand3 main.cpp MiBand3.cpp MiBand3.h aes.c aes.h aes.hpp ESP32S
 target_include_directories(MiBand3 PRIVATE ${CMAKE_SYSROOT}/usr/include/arm-linux-gnueabihf/qt5/QtBluetooth)
 target_link_libraries(MiBand3 Qt5::Widgets Qt5::Core Qt5::Bluetooth Qt5::DBus "${LIBRARIES_FROM_REFERENCES}")
 set_property(TARGET MiBand3 PROPERTY CXX_STANDARD 17)
+target_compile_options(MiBand3 PRIVATE $<IF:$<CONFIG:Release>,-O2,-Og>)

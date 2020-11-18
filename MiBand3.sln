@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
@@ -8,19 +8,13 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
-		MinSizeRel|VisualGDB = MinSizeRel|VisualGDB
 		Release|VisualGDB = Release|VisualGDB
-		RelWithDebInfo|VisualGDB = RelWithDebInfo|VisualGDB
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D55FE81F-B402-4E35-94DC-AE5DC4D90707}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
 		{D55FE81F-B402-4E35-94DC-AE5DC4D90707}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
-		{D55FE81F-B402-4E35-94DC-AE5DC4D90707}.MinSizeRel|VisualGDB.ActiveCfg = MinSizeRel|VisualGDB
-		{D55FE81F-B402-4E35-94DC-AE5DC4D90707}.MinSizeRel|VisualGDB.Build.0 = MinSizeRel|VisualGDB
 		{D55FE81F-B402-4E35-94DC-AE5DC4D90707}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{D55FE81F-B402-4E35-94DC-AE5DC4D90707}.Release|VisualGDB.Build.0 = Release|VisualGDB
-		{D55FE81F-B402-4E35-94DC-AE5DC4D90707}.RelWithDebInfo|VisualGDB.ActiveCfg = RelWithDebInfo|VisualGDB
-		{D55FE81F-B402-4E35-94DC-AE5DC4D90707}.RelWithDebInfo|VisualGDB.Build.0 = RelWithDebInfo|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
